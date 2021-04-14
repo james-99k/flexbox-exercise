@@ -64,14 +64,6 @@
     justify-content: center;
 }
 
-.twitterFeed {
-    display: flex;
-    background-color: #D3D3D3;
-    height: 50px;
-    width: 645px;
-    margin-left: 310px;
-}
-
 .container5 {
     display: flex;
     justify-content: space-between;
@@ -109,6 +101,16 @@
     align-items: center;
 }
 
-.twitterText {
-    margin-left: 20px;
+.twitterFeed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.twitterText {
+    display: flex;
+    background-color: #D3D3D3;
+    height: 50px;
+    width: 645px;
+    justify-content: center;
+    align-items: center;
