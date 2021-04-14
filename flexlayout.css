@@ -1,0 +1,87 @@
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color:#D3D3D3;
+}
+
+.containerLogo {
+    justify-content: flex-start;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.containerLinks {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:#D3D3D3;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.projectSlider {
+    background-color: gray;
+    height: 150px;
+    width: 300px;
+    margin: 10px 10px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item {
+    background-color: #D3D3D3;
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.twitterFeed {
+    display: flex;
+    background-color: #D3D3D3;
+    height: 50px;
+    width: 645px;
+    margin-left: 310px;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#D3D3D3;
+    margin-top: 10px;
+}
+
+.containerLinks2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.containerInfo {
+    justify-content: flex-start;
+    margin-right: 50px;
+}
