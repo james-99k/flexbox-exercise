@@ -1,12 +1,14 @@
+$BGcolor: #D3D3D3;
+
 .topBG {
     width: 100%;
     height: 206px;
-    background-color: #D3D3D3 ;
+    background-color: $BGcolor ;
     overflow: hidden;
-    border: 1px solid yellow;
+    //border: 1px solid yellow;
 
     &__wrapper {
-        border: 1px solid red;
+        //border: 1px solid red;
         max-width: 757px;
         margin: 0 auto;
     }
@@ -15,7 +17,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        background-color:#D3D3D3;
+        background-color:$BGcolor;
 
         &--logo {
             justify-content: flex-start;
@@ -32,7 +34,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        background-color:#D3D3D3;
+        background-color:$BGcolor;
     }
 
     &__intro {
@@ -57,7 +59,7 @@
 }
 
 .middle {
-    border: 1px solid red;
+    //border: 1px solid red;
     max-width: 757px;
     margin: 0 auto;
 
@@ -71,7 +73,7 @@
             width: 15px;
             height: 15px;
             border-radius: 20px;
-            background-color: #D3D3D3;
+            background-color: $BGcolor;
         }
     }
 
@@ -82,7 +84,7 @@
         align-items: center;
 
         &--item {
-            background-color: #D3D3D3;
+            background-color: $BGcolor;
             height: 200px;
             width: 200px;
             margin: 10px 10px 10px 10px;
@@ -98,7 +100,7 @@
         justify-content: center;
 
         &--item {
-            background-color: #D3D3D3;
+            background-color: $BGcolor;
             height: 200px;
             width: 200px;
             margin: 10px 10px 10px 10px;
@@ -115,7 +117,7 @@
 
         &--Text {
             display: flex;
-            background-color: #D3D3D3;
+            background-color: $BGcolor;
             height: 50px;
             width: 645px;
             justify-content: center;
@@ -127,12 +129,12 @@
 .footBG {
     width: 100%;
     height: 50px;
-    background-color: #D3D3D3 ;
+    background-color: $BGcolor ;
     overflow: hidden;
-    border: 1px solid yellow;
+    //border: 1px solid yellow;
 
     &__wrapper {
-        border: 1px solid red;
+        //border: 1px solid red;
         max-width: 757px;
         margin: 0 auto;
     }
@@ -141,7 +143,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color:#D3D3D3;
+        background-color:$BGcolor;
         margin-top: 10px;
 
         &--Links {
