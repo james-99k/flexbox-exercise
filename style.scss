@@ -4,123 +4,124 @@
     background-color: #D3D3D3 ;
     overflow: hidden;
     border: 1px solid yellow;
-}
 
-.topBG__wrapper {
-    border: 1px solid red;
-    max-width: 757px;
-    margin: 0 auto;
+    &__wrapper {
+        border: 1px solid red;
+        max-width: 757px;
+        margin: 0 auto;
+    }
+
+    &__container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        background-color:#D3D3D3;
+
+        &--logo {
+            justify-content: flex-start;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+
+        &--links {
+            margin-right: 50px;
+        }
+    }
+
+    &__container2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color:#D3D3D3;
+    }
+
+    &__intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+
+    &__projectSlider {
+        background-color: gray;
+        height: 150px;
+        width: 300px;
+        margin: 10px 50px;
+
+        &--sliderText {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
 
 .middle {
     border: 1px solid red;
     max-width: 757px;
     margin: 0 auto;
-}
 
-.topBG__container1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    background-color:#D3D3D3;
-}
+    &__containerCircle { // continuation from .middle
+        display: flex;
+        justify-content: space-between;
+        width: 132px;
+        margin: 10px 0 0 440px;
 
-.middle__containerCircle {
-    display: flex;
-    justify-content: space-between;
-    width: 132px;
-    margin: 10px 0 0 440px;
-}
+        .middle__containerCircle--circle{ // space after .middle
+            width: 15px;
+            height: 15px;
+            border-radius: 20px;
+            background-color: #D3D3D3;
+        }
+    }
 
-.middle__containerCircle .middle__containerCircle--circle{
-    width: 15px;
-    height: 15px;
-    border-radius: 20px;
-    background-color: #D3D3D3;
-}
-.topBG__container1--logo {
-    justify-content: flex-start;
-    font-size: 30px;
-    margin-left: 50px;
-}
+    &__container3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
-.topBG__container1--links {
-    margin-right: 50px;
-}
+        &--item {
+            background-color: #D3D3D3;
+            height: 200px;
+            width: 200px;
+            margin: 10px 10px 10px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 
-.topBG__container2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color:#D3D3D3;
-}
+    &__container4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
 
-.topBG__intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 50px;
-}
+        &--item {
+            background-color: #D3D3D3;
+            height: 200px;
+            width: 200px;
+            margin: 10px 10px 10px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 
-.topBG__projectSlider {
-    background-color: gray;
-    height: 150px;
-    width: 300px;
-    margin: 10px 50px;
-}
+    &__twitterFeed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-.topBG__projectSlider--sliderText {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.middle__container3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.middle__container4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.middle__container3--item {
-    background-color: #D3D3D3;
-    height: 200px;
-    width: 200px;
-    margin: 10px 10px 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.middle__container4--item {
-    background-color: #D3D3D3;
-    height: 200px;
-    width: 200px;
-    margin: 10px 10px 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.middle__twitterFeed {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.middle__twitterFeed--Text {
-    display: flex;
-    background-color: #D3D3D3;
-    height: 50px;
-    width: 645px;
-    justify-content: center;
-    align-items: center;
+        &--Text {
+            display: flex;
+            background-color: #D3D3D3;
+            height: 50px;
+            width: 645px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
 
 .footBG {
@@ -129,54 +130,54 @@
     background-color: #D3D3D3 ;
     overflow: hidden;
     border: 1px solid yellow;
-}
 
-.footBG__wrapper {
-    border: 1px solid red;
-    max-width: 757px;
-    margin: 0 auto;
-}
+    &__wrapper {
+        border: 1px solid red;
+        max-width: 757px;
+        margin: 0 auto;
+    }
 
-.footBG__container5 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:#D3D3D3;
-    margin-top: 10px;
-}
+    &__container5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:#D3D3D3;
+        margin-top: 10px;
 
-.footBG__container5--Links {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 50px;
-}
+        &--Links {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 50px;
+        }
 
-.footBG__container5--Info {
-    justify-content: flex-start;
-    margin-right: 50px;
-}
+        &--Info {
+            justify-content: flex-start;
+            margin-right: 50px;
+        }
+    }
 
-.footBG__Info {
-    margin-right: 50px;
+    &__Info {
+        margin-right: 50px;
+    }
 }
 
 @media (max-width: 400px) {
     .topBG__container1{
         align-items: flex-start;
         flex-direction: column;
-    }
 
-    .topBG__container1--links{
-        margin-left: 50px;
+        &--links{
+            margin-left: 50px;
+        }
     }
 
     .footBG__container5{
         align-items: flex-start;
         flex-direction: column;
-    }
 
-    .footBG__container5--Links{
-        margin-left: 50px;
+        &--Links{
+            margin-left: 50px;
+        }
     }
 }
 

@@ -12,12 +12,6 @@
   margin: 0 auto;
 }
 
-.middle {
-  border: 1px solid red;
-  max-width: 757px;
-  margin: 0 auto;
-}
-
 .topBG__container1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,24 +22,6 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-color: #D3D3D3;
-}
-
-.middle__containerCircle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 132px;
-  margin: 10px 0 0 440px;
-}
-
-.middle__containerCircle .middle__containerCircle--circle {
-  width: 15px;
-  height: 15px;
-  border-radius: 20px;
   background-color: #D3D3D3;
 }
 
@@ -107,6 +83,30 @@
           align-items: center;
 }
 
+.middle {
+  border: 1px solid red;
+  max-width: 757px;
+  margin: 0 auto;
+}
+
+.middle__containerCircle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 132px;
+  margin: 10px 0 0 440px;
+}
+
+.middle__containerCircle .middle__containerCircle--circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  background-color: #D3D3D3;
+}
+
 .middle__container3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,6 +115,22 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middle__container3--item {
+  background-color: #D3D3D3;
+  height: 200px;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -134,22 +150,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.middle__container3--item {
-  background-color: #D3D3D3;
-  height: 200px;
-  width: 200px;
-  margin: 10px 10px 10px 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .middle__container4--item {
